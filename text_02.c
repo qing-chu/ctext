@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1 
 //第七集  初始常量变量
 //放在代码的第一行
 //int main()
