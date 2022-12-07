@@ -1,0 +1,26 @@
+do while循环语句
+do while循环语句格式：
+do{
+循环体；
+}while（循环条件）；
+
+题目：在控制台上输出五句Hello World
+int count=0;
+do{
+System.out.println("Hello World");
+count++;
+}while(count<5);
+
+while循环语句和do while循环语句的区别：
+while循环语句是先判断后执行循环语句的，do while循环语句是先执行后判断，无论条件有无满足，至少都会执行一次。
+
+题目：计算1-100之间的偶数和
+int num=1;
+int sum=0;
+do{
+if(num%2==0){
+sum=sum+num;
+}
+num++;
+}while(num<101);
+System.out.println("sum="+sum);
